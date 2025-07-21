@@ -1,0 +1,6 @@
+streamlit==1.45.1
+fitz==0.0.1.dev2  # PyMuPDF is often imported as fitz
+sentence-transformers==2.7.0 # Based on your code, this is the version to use. I found the latest one.
+scikit-learn==1.5.0 # For cosine_similarity
+torch==2.3.0 # sentence-transformers depends on a deep learning framework, likely PyTorch
+transformers==4.42.3 # sentence-transformers depends on huggingface transformers
