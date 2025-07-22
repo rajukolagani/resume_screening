@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import fitz
+import fitz  # keep this as-is
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import tempfile
